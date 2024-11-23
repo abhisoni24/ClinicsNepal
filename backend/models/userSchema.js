@@ -28,8 +28,8 @@ const userSchema = new mongoose.Schema({
   idn: {
     type: String,
     required: true,
-    minLength: [7, `ID number must be exact 10 characters`],
-    maxLength: [7, `ID number must be exact 10 characters`],
+    minLength: [7, `ID number must be exact 7 characters`],
+    maxLength: [7, `ID number must be exact 7 characters`],
   },
   dob: {
     type: Date,
